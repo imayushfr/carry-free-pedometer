@@ -4,7 +4,7 @@ A tool that lets you estimate Google Fit's activity metrics (like heart minutes,
 [Deployed link](https://carry-free-pedometer.onrender.com/)
 
 ## Language Used
-Python 3
+- Python 3
 
 ## Libraries Used
 - NumPy
@@ -18,17 +18,11 @@ Python 3
 ```
 git clone https://github.com/imayushfr/carry-free-pedometer.git
 ```
-### 2. Navigate to cloned directory
+### 2. Navigate to Cloned Directory
 ```
 cd carry-free-pedometer
 ```
 ### 3. Create a Virtual Environment
-
-**Windows:**
-```
-python -m venv venv
-```
-**Linux / macOS:**
 ```
 python -m venv venv
 ```
@@ -50,7 +44,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-### 7. Open the App
+### 7. Open the Application
 
 Streamlit will display a local URL in your terminal, usually:
 
@@ -60,7 +54,17 @@ http://localhost:8501
 
 ## How to Use
 
-1. Download your Google Fit's Takeout file from here: https://takeout.google.com/ (You only need this for the first usage)
-2. Upload the `.zip` file on the application. It will create a `.json` file.
-3. Upload that `.json` file on the application. Values get extracted from the `.json` file and gets saved in the browser local storage.
-4. Estimate your stats by **workout duration** and **breaks** in between.
+1. Download your **Google Fit's Takeout** `.zip` file from here: https://takeout.google.com/ (You only need this for the first usage).
+
+
+2. Upload the `.zip` takeout file to the application. It will create a `.json` file.
+
+![upload](upload.png)
+
+3. Upload that `.json` file to the application. It will extract values from the `.json` file and will be saved in the browser's local storage.
+
+4. Estimate your stats by entering **Leaving time**, **Returning  time**, and **breaks** in between.
+
+![fields](fields.png)
+
+![estimates](estimates.png)
