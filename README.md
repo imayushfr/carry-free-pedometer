@@ -59,12 +59,6 @@ http://localhost:8501
 
 2. Upload the `.zip` takeout file to the application. It will create a `.json` file.
 
-![upload](upload.png)
-
 3. Upload that `.json` file to the application. It will extract values from the `.json` file and will be saved in the browser's local storage.
 
 4. Estimate your stats by entering **Leaving time**, **Returning  time**, and **breaks** in between.
-
-![fields](fields.png)
-
-![estimates](estimates.png)
