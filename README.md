@@ -3,6 +3,8 @@ A tool that lets you estimate Google Fit's activity metrics (like heart minutes,
 
 [Deployed link](https://carry-free-pedometer.onrender.com/)
 
+[Demo video](https://youtu.be/tJjTeQTlMTY)
+
 ## Language Used
 - Python 3
 
