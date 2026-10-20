@@ -1,9 +1,9 @@
 # Carry Free Pedometer
 A tool that lets you estimate Google Fit's activity metrics (like heart minutes, calories, distance, and speed ) without carrying your phone or health band around.
 
-[Deployed link](https://carry-free-pedometer.onrender.com/)
-
-[Demo video](https://youtu.be/tJjTeQTlMTY)
+- [Deployed Link](https://carry-free-pedometer.onrender.com/)
+- [Demo Video](https://youtu.be/tJjTeQTlMTY)
+- [Dev Post](https://dev.to/imayushfr/carry-free-pedometer-goggle-fit-edition-no-need-to-carry-your-phone-or-health-band-111c)
 
 ## Language Used
 - Python 3
